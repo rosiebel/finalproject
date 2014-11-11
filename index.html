@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type=“text/css” rel="stylesheet" href="css/style.css"/>
+	 <link type= "text/css" href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="lib/sidr/stylesheets/jquery.sidr.dark.css">
+	</head>
+
+	<body>
+
+		<div class="jumbotron">
+			<!-- Sidr menu + Bootstrap Glyphicon -->
+			<a id="simple-menu" href="#sidr"><span id="menu" class="glyphicon glyphicon-align-justify"></span>
+
+		 <!-- Begin sidr code -->
+			<div id="sidr">
+		  <!-- Your content -->
+		 	 <ul>
+			    <li><a href="#">List 1</a></li>
+			    <li class="active"><a href="#">List 2</a></li>
+			    <li><a href="#">List 3</a></li>
+		 	 </ul>
+			</div>
+
+			<!-- Header on the jumbotron -->
+			<div class="container">
+				<h1>Unexpected Ways to Enjoy NatureBox</h1>
+			</div>
+
+				<span class="glyphicon glyphicon-chevron-down"></span>
+			
+
+			<!-- Down arrow to view content, add an anchor -->
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   		 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+   		 <script src="js/jquery-2.1.1.min.js"></script>
+   		 <script src="lib/sidr/jquery.sidr.min.js"></script>
+   		 <script type="text/javascript" src="js/script.js"></script>
+   		 <script>
+		$(document).ready(function() {
+		  $('#simple-menu').sidr();
+		});
+		</script>
+	</body>
+
+
+
+</html>
