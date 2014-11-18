@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<link type=“text/css” rel="stylesheet" href="css/style.css"/>
+	
 	 <link type= "text/css" href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	 <link rel="stylesheet" href="lib/sidr/stylesheets/jquery.sidr.dark.css">
+	 <link rel="stylesheet" type="text/css" href="lib/slick/slick.css"/>
+	 <link type=“text/css” rel="stylesheet" href="css/style.css"/>
+	 <title>Unexpected Ways</title>
 	</head>
 
 	<body>
@@ -33,6 +36,23 @@
 			<!-- Down arrow to view content, add an anchor -->
 		</div>
 
+		<div class ="carousel">
+			<div class="multiple-items">
+			  <div><blockquote class="twitter-tweet" lang="en"><p>The hype about these <a href="https://twitter.com/naturebox">@naturebox</a> pineapples is real! I would get them pierced to my face if I could. 🍍🍍 <a href="http://t.co/fjZ7sauXw2">pic.twitter.com/fjZ7sauXw2</a></p>&mdash; Cullen (@Culligan27) <a href="https://twitter.com/Culligan27/status/530414230693236736">November 6, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+			  <div><blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/naturebox">@naturebox</a> the pineapple was a hit <a href="http://t.co/QAjyUGFJtX">pic.twitter.com/QAjyUGFJtX</a></p>&mdash; Jersey Todd (@JerseyTodd) <a href="https://twitter.com/JerseyTodd/status/355510410478235650">July 12, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+			  <div><blockquote class="twitter-tweet" lang="en"><p>The <a href="https://twitter.com/naturebox">@naturebox</a> Taco // Big island pineapple, watermelon fruit chews, and tart apple mango crispy chews, folded up. <a href="http://t.co/u5CQ6xodnG">pic.twitter.com/u5CQ6xodnG</a></p>&mdash; MrRobertMain (@TheRobertMain) <a href="https://twitter.com/TheRobertMain/status/531652559220768768">November 10, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+			  <div><blockquote class="twitter-tweet" lang="en"><p>LOL <a href="https://twitter.com/shaycarl">@shaycarl</a> &#39;s scream and face when they dropped the Nature Box pineapple on the ground <a href="https://twitter.com/hashtag/same?src=hash">#same</a> <a href="http://t.co/R56Mp6iYfY">pic.twitter.com/R56Mp6iYfY</a></p>&mdash; Momo (@MorganTallman) <a href="https://twitter.com/MorganTallman/status/492897274586882048">July 26, 2014</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+				<div><blockquote class="twitter-tweet" lang="en"><p>The struggle of only having this much <a href="https://twitter.com/hashtag/bigislandpineapple?src=hash">#bigislandpineapple</a> left in your <a href="https://twitter.com/naturebox">@naturebox</a> <a href="http://t.co/Qq1bbYC6XQ">pic.twitter.com/Qq1bbYC6XQ</a></p>&mdash; Megan Ashley 卌 (@meganashleyss) <a href="https://twitter.com/meganashleyss/status/530917130120998912">November 8, 2014</a></blockquote>
+				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></a>
+							</div>
+		</div>
+
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -40,11 +60,22 @@
    		 <script src="js/jquery-2.1.1.min.js"></script>
    		 <script src="lib/sidr/jquery.sidr.min.js"></script>
    		 <script type="text/javascript" src="js/script.js"></script>
+   		 <!-- slick folder -->
+   		 <script type="text/javascript" src="lib/slick/slick.min.js"></script>
    		 <script>
 		$(document).ready(function() {
 		  $('#simple-menu').sidr();
 		});
 		</script>
+
+		<script>window.twttr = (function (d, s, id) {
+		  var t, js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src= "https://platform.twitter.com/widgets.js";
+		  fjs.parentNode.insertBefore(js, fjs);
+		  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+		}(document, "script", "twitter-wjs"));</script>
 	</body>
 
 

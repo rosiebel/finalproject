@@ -22,16 +22,27 @@
     padding: 5px;
 }
 
-.glyphicon-align-justify {
-    font-size: 40px;
-    color: white;
-    margin-left: 30px;
-    border: 1px solid black;
-    padding: 5px;
-}
-
 .glyphicon-chevron-down{
 	font-size: 40px;
     color: white;
 }
 
+.twitter-tweet {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.multiple-items p {
+	font-size: 16px;
+	font-family: 'Ek Mukta', sans-serif;
+}
+
+.carousel {
+	width: 800px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: black;
+}
