@@ -1,7 +1,7 @@
 .jumbotron {
 	background-image:url('../img/naturebox-snacks.jpg');
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 700px;
 	width: 100%;
 	background-size: cover;
 }
@@ -20,6 +20,14 @@
     margin-left: 30px;
     border: 1px solid black;
     padding: 5px;
+}
+
+.media-section h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	
 }
 
 .glyphicon-chevron-down{
